@@ -63,7 +63,7 @@ export default function App() {
 
     // Save to MongoDB Atlas
     try {
-      await fetch('http://localhost:5000/api/save-secret', {
+      await fetch('/api/save-secret', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
