@@ -1,0 +1,21 @@
+body {
+    background-color: #0f172a;
+    font-family: 'Inter', sans-serif;
+    color: #f1f5f9;
+}
+.dark-card {
+    background-color: #1e293b;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+}
+.upload-area {
+    border: 2px dashed rgba(255, 255, 255, 0.15);
+    transition: all 0.2s ease;
+}
+.upload-area:hover {
+    border-color: #3b82f6;
+    background-color: #1e3a8a33;
+}
+.secret-glow {
+    text-shadow: 0 0 15px rgba(234, 179, 8, 0.5);
+}
